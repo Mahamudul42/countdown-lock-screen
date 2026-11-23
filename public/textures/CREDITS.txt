@@ -1,0 +1,6 @@
+﻿Lunar surface and elevation maps from NASA's Scientific Visualization Studio, CGI Moon Kit.
+https://svs.gsfc.nasa.gov/4720/
+
+lroc_color_2k.jpg is adapted from the Lunar Reconnaissance Orbiter Camera WAC mosaic.
+ldem_3_8bit.jpg is derived from the Lunar Orbiter Laser Altimeter elevation data.
+lunar-disc.webp is a shaded rendering made from both maps for the WebGL fallback.
