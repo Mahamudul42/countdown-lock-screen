@@ -15,10 +15,6 @@ npm run dev
 
 `npm run build` type-checks the project and creates the production site in `dist/`. Run `npm run preview` to serve that build locally.
 
-## GitHub Pages
-
-In the GitHub repository, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. Push the project to the `main` branch or run **Deploy Research Orbit to GitHub Pages** from the Actions tab. The workflow builds the Vite app and deploys `dist/`. Relative asset paths support both a user site and a repository subpath.
-
 ## Challenge files
 
 - [Promotional cover, 1536 × 1024](public/research-orbit-cover.png)
