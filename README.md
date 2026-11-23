@@ -1,5 +1,7 @@
 # Research Orbit
 
+[Open Research Orbit on GitHub Pages](https://mahamudul42.github.io/countdown-lock-screen/)
+
 An interactive countdown and wallpaper studio for a Computer Science PhD paper. The planning target is **January 29, 2027 at 11:59 PM in Chicago (CST)**. The brief supplies the date. The time and six-step research plan were chosen for this challenge. The timeline and countdown logic live in `src/data.ts`.
 
 ## Run locally
@@ -27,7 +29,7 @@ The website clock updates live. An exported wallpaper records the day count, fir
 
 ## Art credits
 
-The lunar globe uses the [NASA Scientific Visualization Studio CGI Moon Kit](https://svs.gsfc.nasa.gov/4720/). See [texture credits](public/textures/CREDITS.txt). The phone on the cover shows an actual wallpaper export. Its preview clock sits in the area reserved for the device clock.
+The lunar globe uses the [NASA Scientific Visualization Studio CGI Moon Kit](https://svs.gsfc.nasa.gov/4720/). See [texture credits](public/textures/CREDITS.txt). The cover uses artwork from the Glacier wallpaper export and larger type for the phone mockup. Its preview clock sits in the area reserved for the device clock.
 
 <details>
 <summary>Promotional background art direction · built-in ImageGen</summary>
