@@ -23,17 +23,9 @@ In the GitHub repository, set **Settings → Pages → Build and deployment → 
 
 - [Promotional cover, 1536 × 1024](public/research-orbit-cover.png)
 - [Glacier lock screen, 1440 × 2560](public/research-orbit-wallpaper.png)
-- [Submission reflection](submission-answer.txt)
 
 The website clock updates live. An exported wallpaper records the day count, first incomplete milestone, and palette at the time of download. Milestone progress and palette are saved in the current browser.
 
 ## Art credits
 
 The lunar globe uses the [NASA Scientific Visualization Studio CGI Moon Kit](https://svs.gsfc.nasa.gov/4720/). See [texture credits](public/textures/CREDITS.txt). The cover uses artwork from the Glacier wallpaper export and larger type for the phone mockup. Its preview clock sits in the area reserved for the device clock.
-
-<details>
-<summary>Promotional background art direction · built-in ImageGen</summary>
-
-Use case: ads-marketing. Create a text-free 3:2 landscape photographic background plate for the cover of Research Orbit, a Computer Science PhD submission countdown. Premium science journal art direction, monochromatic midnight navy and soft silver with extremely subtle icy blue. A monumental curved lunar horizon sweeps diagonally across the bottom of the picture, starting near 74 percent down at left, descending out of frame at right. Detailed silver lunar regolith and a few sharp craters along its grazing-lit edge, deep inky interior. A single very thin pale cyan orbital arc crosses the far right background. Upper three quarters is predominantly near-black space with very few faint pinpoint stars, lots of calm negative space at mid-left for a title and at right for a separately composited real phone. Refined, restrained, tactile high-end space photography with natural chiaroscuro and beautiful detail. No devices, typography, labels, glyphs, fake lettering, flares, nebula clouds, watermarks or logos. Landscape 1536 by 1024.
-
-</details>
