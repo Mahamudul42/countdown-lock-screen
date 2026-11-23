@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import type { CSSProperties } from 'react'
 import { getCountdown, milestones, palettes } from '../data'
 import type { PaletteId } from '../data'
-import { drawWallpaper, loadWallpaperArt, WALLPAPER_HEIGHT, WALLPAPER_WIDTH } from '../wallpaperDrawing'
+import { drawWallpaper, loadWallpaperArt, loadWallpaperFonts, WALLPAPER_HEIGHT, WALLPAPER_WIDTH } from '../wallpaperDrawing'
 import './wallpaper.css'
 
 type WallpaperStudioProps = {
@@ -25,7 +25,7 @@ export default function WallpaperStudio({ palette, setPalette, completed, now }:
   useEffect(() => {
     let active = true
     const paint = async () => {
-      const [moon] = await Promise.all([loadWallpaperArt(), document.fonts.ready])
+      const [moon] = await Promise.all([loadWallpaperArt(), loadWallpaperFonts()])
       if (active && preview.current) {
         drawWallpaper(preview.current, { palette, days, nextMilestone, completeCount, milestoneCount: milestones.length }, moon)
       }
@@ -43,7 +43,7 @@ export default function WallpaperStudio({ palette, setPalette, completed, now }:
   async function exportWallpaper() {
     setExportStatus('busy')
     try {
-      const [moon] = await Promise.all([loadWallpaperArt(), document.fonts.ready])
+      const [moon] = await Promise.all([loadWallpaperArt(), loadWallpaperFonts()])
       const output = document.createElement('canvas')
       output.width = WALLPAPER_WIDTH
       output.height = WALLPAPER_HEIGHT

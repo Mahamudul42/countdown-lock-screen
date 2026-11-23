@@ -24,7 +24,7 @@
   gap: 11px;
   margin: 0 0 19px;
   color: var(--studio-accent);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 500;
   letter-spacing: .16em;
   text-transform: uppercase;
@@ -39,7 +39,7 @@
 }
 .studio-intro {
   margin: 19px 0 35px;
-  color: #a4b1c0;
+  color: #b7c4d0;
   max-width: 420px;
   font-size: 16px;
   line-height: 1.65;
@@ -59,8 +59,8 @@
   min-height: 40px;
   border: 1px solid var(--studio-line);
   border-radius: 6px;
-  color: #bcc9d5;
-  font-size: 13px;
+  color: #d5e0e9;
+  font-size: 14px;
   transition: background .2s, border-color .2s, color .2s;
 }
 .studio-option-face i {
@@ -91,7 +91,7 @@
 }
 .studio-clock-control strong,
 .studio-clock-control small { display: block; }
-.studio-clock-control small { margin-top: 4px; font-size: 12px; color: #9aaaba; }
+.studio-clock-control small { margin-top: 4px; font-size: 13px; color: #b7c4d0; }
 .studio-switch {
   position: relative;
   flex: 0 0 38px;
@@ -134,7 +134,7 @@
 }
 .studio-export button:hover { filter: brightness(1.08); transform: translateY(-1px); }
 .studio-export button:disabled { opacity: .7; cursor: progress; }
-.studio-export small { font-size: 10px; letter-spacing: .025em; color: #98a9b9; }
+.studio-export small { font-size: 12px; letter-spacing: .025em; color: #b7c4d0; }
 .studio-status { min-height: 18px; font-size: 12px; line-height: 1.5; margin: 10px 0 0; color: #bdccda; }
 .studio-preview {
   position: relative;
@@ -156,8 +156,7 @@
   mask-image: radial-gradient(ellipse, #000 20%, transparent 74%);
 }
 .studio-phone {
-  box-sizing: content-box;
-  width: clamp(205px, 17.5vw, 260px);
+  width: min(100%, clamp(218px, 23vw, 320px));
   padding: 6px;
   border-radius: 33px;
   border: 1px solid #677483;
@@ -172,12 +171,12 @@
   display: grid;
   text-align: center;
   pointer-events: none;
-  color: #e5edf1;
+  color: #f4f8fc;
   font-family: 'Instrument Sans', 'Segoe UI', Arial, sans-serif;
 }
-.studio-os-clock span { font-size: 11px; line-height: 1.4; font-weight: 500; }
-.studio-os-clock strong { font-size: clamp(45px, 4.2vw, 62px); line-height: 1.08; font-weight: 500; letter-spacing: -.07em; font-variant-numeric: tabular-nums; }
-.studio-preview figcaption { font-size: 9px; text-transform: uppercase; color: #9aabba; letter-spacing: .12em; }
+.studio-os-clock span { font-size: 13px; line-height: 1.4; font-weight: 600; }
+.studio-os-clock strong { font-size: clamp(45px, 4.6vw, 72px); line-height: 1.08; font-weight: 500; letter-spacing: -.055em; font-variant-numeric: tabular-nums; }
+.studio-preview figcaption { font-size: 11px; text-transform: uppercase; color: #b7c4d0; letter-spacing: .12em; }
 
 @media (max-width: 850px) {
   .wallpaper-studio { grid-template-columns: minmax(0,1.18fr) minmax(225px,.82fr); gap: 20px; }
@@ -188,7 +187,7 @@
   .studio-intro { margin-bottom: 26px; }
   .studio-clock-control { max-width: none; }
   .studio-preview { padding: 0 6px 7px; }
-  .studio-phone { width: min(62vw, 235px); }
+  .studio-phone { width: min(78vw, 290px); }
 }
 @media (prefers-reduced-motion: reduce) {
   .studio-export button, .studio-switch, .studio-switch::before, .studio-option-face { transition: none; }
